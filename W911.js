@@ -542,6 +542,38 @@ function V2() {
 }
 
 
+function X50() {
+    h5gg.editAll('4397530849741637681', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'X50'
+    });
+
+}
+
+function X10() {
+    h5gg.editAll('4397530849749489418', 'I64');
+
+    vant.showNotify({
+        type: 'success',
+        message: 'X10'
+    });
+
+}
+
+   function X100() {
+    h5gg.editAll('4397530849735000000', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'X100'
+    });
+
+	}
+
+
+
+
+
 var codeStatus = false;
 function modifyValue(searchValue, replaceValue, addressEndsWith, addressEndsWith2, alertMessage) {
     h5gg.clearResults();
