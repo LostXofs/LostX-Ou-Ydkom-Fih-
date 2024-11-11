@@ -1,7 +1,7 @@
 loopy() 
 function loopy() {
-    var correctUsername = "W9999999WWWWWWWWWWW"; // استبدل باسم المستخدم الصحيح هنا
-    var correctPassword = "1WWWWWWWWWWWWW"; // كلمة السر الصحيحة
+    var correctUsername = "TRINTAXL"; // استبدل باسم المستخدم الصحيح هنا
+    var correctPassword = "1M"; // كلمة السر الصحيحة
 
     // إدخال اسم المستخدم
     var username = prompt("𝗘𝗻𝘁𝗲𝗿 𝗬𝗼𝘂𝗿 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲");
@@ -26,5 +26,5 @@ function loopy() {
         }
     }
 
-    window.alert("𝗪𝗔𝗟𝗖𝗢𝗠");
+    window.alert("𝗪𝗔𝗟𝗖𝗢𝗠 TO Pnael TRINTAXL (Isso )");
 }
