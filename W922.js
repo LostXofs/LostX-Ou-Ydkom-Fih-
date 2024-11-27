@@ -384,7 +384,7 @@ function so92() {
 		
 		function s08() {
     h5gg.clearResults();
-    h5gg.searchNumber('4728779608739021057', 'I64', '0x100000000', '0x150000000');
+    h5gg.searchNumber('4724789618739121157', 'I64', '0x100000000', '0x150000000');
 
     alert('Active(' + h5gg.getResultsCount() + ')');
 
@@ -498,21 +498,15 @@ function S2() {
     });
 
 }
-            function V5() {
-    h5gg.editAll('4397530849758414897', 'I64');
+
+
+
+            function S5() {
+    h5gg.editAll('4397530849758414697', 'I64');
     vant.showNotify({
         type: 'success',
         message: 'X5'
     })
-
-}
-
-              function V7() {
-    h5gg.editAll('4397530849758414897', 'I64');
-    vant.showNotify({
-        type: 'success',
-        message: 'X7'
-    });
 
 }
 
@@ -524,33 +518,6 @@ function S2() {
     });
 
 }
-
-        function D1() {
-    location.href = "https://tinyurl.com/5xece5uh";
-    vant.showNotify({
-        type: 'success',
-        message: 'Bypass Cheat'
-    });
-}
-
-       function D2() {
-    location.href = "https://tinyurl.com/5xece5uh";
-    vant.showNotify({
-        type: 'success',
-        message: 'Anti Cheat'
-    });
-}
-
-
-
-   function S100() {
-    h5gg.editAll('4397530849735000000', 'I64');
-    vant.showNotify({
-        type: 'success',
-        message: 'X100'
-    });
-
-	}
 
 
 
@@ -580,32 +547,14 @@ function modifyValue(searchValue, replaceValue, addressEndsWith, addressEndsWith
 
 setButtonImage('https://cdn.discordapp.com/attachments/1278487016186712155/1286891031404613672/photo-2024-09-18-05-16-44-removebg-preview.png?ex=66f57ceb&is=66f42b6b&hm=92a99a1869fc45d042bce5a0a0198c6ea931c413587590b2982a33d778c414d5&')
 
-function S50() {
-    h5gg.editAll('4397530849741637681', 'I64');
+
+
+
+function S8() {
+    h5gg.editAll('4366458311853685297', 'I64');
     vant.showNotify({
         type: 'success',
-        message: '50x'
-    });
-
-}
-
-function S10() {
-    h5gg.editAll('4397530849749489418', 'I64');
-
-    vant.showNotify({
-        type: 'success',
-        message: '10x'
-    });
-
-}
-
-
-
-function S200() {
-    h5gg.editAll('4397530849734000000', 'I64');
-    vant.showNotify({
-        type: 'success',
-        message: 'X200'
+        message: 'X8'
     });
 
   }
