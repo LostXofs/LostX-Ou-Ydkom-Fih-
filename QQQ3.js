@@ -1030,7 +1030,84 @@ function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWit
     }
 	}
 
+      function Search() {
+    h5gg.clearResults();
+    h5gg.searchNumber('4397530849764387586', 'I64', '0x100000000', '0x200000000');
+    alert('Acitve(' + h5gg.getResultsCount() + '/1)');
+              vant.showNotify({
+        type: 'success',
+        message: 'Search'
+    });
+}
 
+function S2() {
+    h5gg.editAll('4397530849758414897', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'X2'
+    });
+
+}
+
+
+
+            function S5() {
+    h5gg.editAll('4397530849758414697', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'X5'
+    })
+
+}
+
+        function Restore() {
+    h5gg.editAll('4397530849764387586', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'Restore'
+    });
+
+}
+
+
+
+
+
+var codeStatus = false;
+function modifyValue(searchValue, replaceValue, addressEndsWith, addressEndsWith2, alertMessage) {
+    h5gg.clearResults();
+    h5gg.searchNumber(searchValue, 'I32', '0x10000000', '0x160000000');
+    const results = h5gg.getResults(h5gg.getResultsCount());
+    let modifiedCount = 0;
+    results.forEach(result => {
+        if (result.address.endsWith(addressEndsWith) || result.address.endsWith(addressEndsWith2)) {
+            h5gg.setValue(result.address, replaceValue.toString(), 'I32');
+            modifiedCount++;
+            
+           
+
+        }
+    });
+    if (modifiedCount > 0) {
+        if (alertMessage) alert(alertMessage);
+    } else if (alertMessage) {
+        alert("Lỗi");
+    }
+}
+
+setButtonImage('https://cdn.discordapp.com/attachments/1278487016186712155/1286891031404613672/photo-2024-09-18-05-16-44-removebg-preview.png?ex=66f57ceb&is=66f42b6b&hm=92a99a1869fc45d042bce5a0a0198c6ea931c413587590b2982a33d778c414d5&')
+
+
+
+
+function S8() {
+    h5gg.editAll('4366458311853685297', 'I64');
+    vant.showNotify({
+        type: 'success',
+        message: 'X8'
+    });
+
+  }
 
 
     
