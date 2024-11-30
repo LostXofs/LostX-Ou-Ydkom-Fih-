@@ -486,15 +486,15 @@ function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWit
     alert('Acitve(' + h5gg.getResultsCount() + '/1)');
               vant.showNotify({
         type: 'success',
-        message: 'Search'
+        message: 'SPEED BAY HAHAHAHAHAHAHAHA'
     });
 }
 
 function S2() {
-    h5gg.editAll('4397530849758414897', 'I64');
+
     vant.showNotify({
         type: 'success',
-        message: 'X2'
+        message: 'SPEED BAY HAHAHAHAHAHAHAHA'
     });
 
 }
@@ -502,10 +502,10 @@ function S2() {
 
 
             function S5() {
-    h5gg.editAll('4397530849758414697', 'I64');
+   
     vant.showNotify({
         type: 'success',
-        message: 'X5'
+        message: 'SPEED BAY HAHAHAHAHAHAHAHA'
     })
 
 }
@@ -514,7 +514,7 @@ function S2() {
     h5gg.editAll('4397530849764387586', 'I64');
     vant.showNotify({
         type: 'success',
-        message: 'Restore'
+        message: 'SPEED BAY HAHAHAHAHAHAHAHA'
     });
 
 }
@@ -551,10 +551,10 @@ setButtonImage('https://cdn.discordapp.com/attachments/1278487016186712155/12868
 
 
 function S8() {
-    h5gg.editAll('4366458311853685297', 'I64');
+	
     vant.showNotify({
         type: 'success',
-        message: 'X8'
+        message: 'SPEED BAY HAHAHAHAHAHAHAHA'
     });
 
   }
