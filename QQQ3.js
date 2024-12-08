@@ -313,7 +313,7 @@ function so88() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Balas Magec V1  Activado '
+            message: 'Balas Magec  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء تفعيلها
@@ -325,7 +325,7 @@ function so88() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Balas Magec V1  Deactivate '
+            message: 'Balas Magec  Deactivate '
         });
     }
 }
@@ -501,7 +501,7 @@ function s100s() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Awm Aim  Activado '
+            message: 'Sniper Aim  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -524,7 +524,7 @@ function s100s() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Awm Aim  Deactivate '
+            message: 'Sniper Aim  Deactivate '
         });
     }
 }
@@ -560,7 +560,7 @@ function s105s() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Awm Scop  Activado '
+            message: 'Sniper Scope  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -581,7 +581,7 @@ function s105s() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Awm Scop  Deactivate '
+            message: 'Sniper Scope  Deactivate '
         });
     }
 }
@@ -622,7 +622,7 @@ function s101s() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Awm Switch  Activado '
+            message: 'Sniper Switch  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -644,7 +644,7 @@ function s101s() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Awm Switch  Deactivate '
+            message: 'Sniper Switch  Deactivate '
         });
     }
 }
@@ -670,7 +670,7 @@ function so89() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Arm Switch  Activado '
+            message: 'Weapons Swicth  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -684,7 +684,7 @@ function so89() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Arm Switch  Deactivate '
+            message: 'Weapons Swicth  Deactivate '
         });
     }
 }
@@ -724,7 +724,7 @@ function sk() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Buff Sensi  Activado '
+            message: 'Sensifty Buff  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -752,7 +752,7 @@ function sk() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Buff Sensi  Deactivate '
+            message: 'Sensifty Buff Deactivate '
         });
     }
 }
@@ -1110,7 +1110,17 @@ function S8() {
   }
 
 
-    
+function HpX1() {
+ 
+h5gg.clearResults();
+h5gg.searchNumber('4397530849764387586','I64','0x100000000', '0x160000000');
+h5gg.editAll('4397530849758414897', 'I64');
+
+	 vant.showNotify({
+        type: 'success',
+        message: 'Fast Revive  Activado '
+    });
+}
 
 
 
