@@ -239,95 +239,32 @@ function xa() {
     }
 }
 
-let norecoilActive = false; // متغير لتتبع حالة التفعيل
-
 function Norecoil() {
-    // دالة للبحث والتعديل
-    function searchAndReplace(searchValue, replaceValue, type) {
-        // مسح النتائج السابقة
-        h5gg.clearResults();
-        
-        // البحث عن القيمة المحددة
-        h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000');
-        
-        // الحصول على النتائج من البحث
-        var results = h5gg.getResults(h5gg.getResultsCount());
-        
-        // تعديل القيم الموجودة في النتائج
-        for (var i = 0; i < results.length; i++) {
-            h5gg.setValue(results[i].address, replaceValue.toString(), type);
-        }
-    }
-
-    // إذا كانت الميزة غير مفعلة، نقوم بتفعيلها
-    if (!norecoilActive) {
-        searchAndReplace(1016018816, 180, 'I32');
-        norecoilActive = true;
-        
-        // عرض إشعار بالنجاح
-        vant.showNotify({
-            type: 'success',
-            message: 'No Recoil  Activado '
-        });
-    } else {
-        // إذا كانت الميزة مفعلة، نقوم بإلغاء تفعيلها
-        searchAndReplace(180, 1016018816, 'I32');
-        norecoilActive = false;
-        
-        // عرض إشعار بإلغاء التفعيل
-        vant.showNotify({
-            type: 'success',
-            message: 'No Recoil  Deactivate '
-        });
-    }
-}
-
-
-let balasMagecActive = false; // متغير لتتبع حالة التفعيل
+        function searchAndReplace(searchValue, replaceValue, type) {
+        h5gg.clearResults(); h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000'); var results = h5gg.getResults(h5gg.getResultsCount()); for (var i = 0; i < results.length; i++) {
+        h5gg.setValue(results[i].address, replaceValue.toString(), type)}}
+        searchAndReplace(1016018816, 180, 'I32')
+				
+		vant.showNotify({
+        type: 'success',
+        message: 'No Recoli Activado  '
+			});		
+			
+			}
 
 function so88() {
-    // دالة للبحث والتعديل
-    function searchAndReplace(searchValue, replaceValue, type) {
-        h5gg.clearResults();
-        h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000');
-        var results = h5gg.getResults(h5gg.getResultsCount());
-        for (var i = 0; i < results.length; i++) {
-            h5gg.setValue(results[i].address, replaceValue.toString(), type);
-        }
-    }
-    
-    // إذا كانت الميزة غير مفعلة، نقوم بتفعيلها
-    if (!balasMagecActive) {
-        h5gg.clearResults();
-        h5gg.searchNumber('4333543704410193920', 'I64', '0x100000000', '0x160000000');
-        h5gg.searchNearby('0.01', 'F32', '0x8');
-        h5gg.searchNearby('0.0219~0.02975', 'F32', '0x32');
-        h5gg.searchNearby('0.1035~0.1070', 'F32', '0x4');
-        h5gg.searchNearby('2.802597e-45', 'F32', '0x4');
-        h5gg.searchNumber('0.1035~0.1070', 'F32', '0x100000000', '0x160000000');
-        h5gg.editAll('1.875', "F32");
-
-        // تفعيل الميزة
-        balasMagecActive = true;
-
-        // عرض إشعار بالنجاح
-        vant.showNotify({
-            type: 'success',
-            message: 'Balas Magec  Activado '
-        });
-    } else {
-        // إذا كانت الميزة مفعلة، نقوم بإلغاء تفعيلها
-        searchAndReplace('1.875', '0.1035', 'F32'); // استرجاع القيمة الأصلية (أو القيمة التي كانت قبل التفعيل)
-        
-        // إلغاء تفعيل الميزة
-        balasMagecActive = false;
-
-        // عرض إشعار بإلغاء التفعيل
-        vant.showNotify({
-            type: 'success',
-            message: 'Balas Magec  Deactivate '
-        });
-    }
+    h5gg.clearResults();
+    h5gg.searchNumber('4333543704410193920', 'I64', '0x100000000', '0x160000000');
+    h5gg.searchNearby('0.01', 'F32', '0x8');
+    h5gg.searchNearby('0.0219~0.02975', 'F32', '0x32')
+    h5gg.searchNearby('0.1035~0.1070', 'F32', '0x4');
+    h5gg.searchNearby('2.802597e-45', 'F32', '0x4');
+    h5gg.searchNumber('0.1035~0.1070', 'F32', '0x100000000', '0x160000000');
+    h5gg.editAll('1.875', "F32");
+    vant.showNotify({
+        type: 'success',
+        message: 'Balas Magec Activado'
+    });
 }
 
 
@@ -670,7 +607,7 @@ function so89() {
         // عرض إشعار بالنجاح
         vant.showNotify({
             type: 'success',
-            message: 'Weapons Swicth  Activado '
+            message: 'Fast Swicth  Activado '
         });
     } else {
         // إذا كانت الميزة مفعلة، نقوم بإلغاء التفعيل
@@ -684,7 +621,7 @@ function so89() {
         // عرض إشعار بإلغاء التفعيل
         vant.showNotify({
             type: 'success',
-            message: 'Weapons Swicth  Deactivate '
+            message: 'Fast Swicth  Deactivate '
         });
     }
 }
@@ -1036,7 +973,7 @@ function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWit
     alert('Acitve(' + h5gg.getResultsCount() + '/1)');
               vant.showNotify({
         type: 'success',
-        message: 'Search'
+        message: 'Search Activado'
     });
 }
 
@@ -1044,7 +981,7 @@ function S2() {
     h5gg.editAll('4397530849758414897', 'I64');
     vant.showNotify({
         type: 'success',
-        message: 'X2'
+        message: 'Speed X2 Activado'
     });
 
 }
@@ -1055,7 +992,7 @@ function S2() {
     h5gg.editAll('4397530849758414697', 'I64');
     vant.showNotify({
         type: 'success',
-        message: 'X5'
+        message: 'Speed X5 Activado'
     })
 
 }
@@ -1064,7 +1001,7 @@ function S2() {
     h5gg.editAll('4397530849764387586', 'I64');
     vant.showNotify({
         type: 'success',
-        message: 'Restore'
+        message: 'Restore Activado'
     });
 
 }
@@ -1104,7 +1041,7 @@ function S8() {
     h5gg.editAll('4366458311853685297', 'I64');
     vant.showNotify({
         type: 'success',
-        message: 'X8'
+        message: 'Speed X8 Activado'
     });
 
   }
