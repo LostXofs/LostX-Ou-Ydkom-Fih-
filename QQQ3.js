@@ -1122,6 +1122,30 @@ h5gg.editAll('4397530849758414897', 'I64');
     });
 }
 
+function Anti() {
+    
+h5gg.clearResults();
+modifyValue(-1042808832,1120403456,'');
+	
+	 vant.showNotify({
+        type: 'success',
+        message: 'Anti Cheat  Activado '
+    });
 
+}
+
+function Bypass() {
+h5gg.clearResults();
+modifyValue(134402, 84148993, '');
+modifyValue(132228, 133890, '');
+modifyValue(132176, 133890, '');
+h5gg.clearResults();
+	
+	 vant.showNotify({
+        type: 'success',
+        message: 'Bybass Cheat  Activado '
+    });
+
+}
 
 
